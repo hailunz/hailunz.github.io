@@ -5,7 +5,7 @@
 ## About 
 
 CMU Master student
-* Major: MS in Information Networking···
+* Major: MS in Information Networking   
 * Expected graduate date: Dec 2015
 
 
