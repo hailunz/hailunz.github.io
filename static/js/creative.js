@@ -11,15 +11,15 @@
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
-            scrollTop: ($($anchor.attr('href')).offset().top - 50)
-        }, 1250, 'easeInOutExpo');
+            scrollTop: ($($anchor.attr('href')).offset().top )
+        }, 1000, 'easeOutQuint');
         event.preventDefault();
     });
 
     // Highlight the top nav as scrolling occurs
     $('body').scrollspy({
         target: '.navbar-fixed-top',
-        offset: 51
+        offset: 60
     })
 
     // Closes the Responsive Menu on Menu Item Click
